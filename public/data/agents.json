@@ -2,47 +2,47 @@
   {
     "name": "Jett",
     "role": "Duelist",
-    "img": "/JETT-removebg-preview.png",
+    "img": "src/assets/JETT-removebg-preview.png",
     "desciption":"Representing her home country of South Korea, Jett's agile and evasive fighting style lets her take risks no one else can. She runs circles around every skirmish, cutting enemies before they even know what hit them.",
     "abilities":[
       {
         "ability1":"Drift",
         "description": "Holding the jump button while falling allows you to glide through the air.",
-        "abimg":"/agentsability/JETT/drift.webp"
+        "abimg":"src/assets/agentsability/JETT/drift.webp"
 
       },
       {
         "ability2": "Cloudburst",
         "description": "INSTANTLY throw a projectile that expands into a brief vision-blocking cloud on impact with a surface. HOLD the ability key to curve the smoke in the direction of your crosshair.",
-         "abimg":"/agentsability/JETT/cloudburst.png"
+         "abimg":"src/assets/agentsability/JETT/cloudburst.png"
 
       },
        {
         "ability2": "Updraft",
         "description": "Propel Jett high into the air.",
-        "abimg":"/agentsability/JETT/updraft.webp"
+        "abimg":"src/assets/agentsability/JETT/updraft.webp"
       },
        {
         "ability2": "Tailwind",
         "description": "ACTIVATE to prepare a gust of wind for a limited time. RE-USE the wind to propel Jett in the direction she is moving. If Jett is standing still, she propels forward. Tailwind charge resets every two kills.",
-        "abimg":"/agentsability/JETT/tailwind.webp"
+        "abimg":"src/assets/agentsability/JETT/tailwind.webp"
       },
       {
         "ultimate":"Balde Storm",
         "description":"EQUIP a set of highly accurate throwing knives. FIRE to throw a single knife and recharge knives on a kill. ALT FIRE to throw all remaining daggers but does not recharge on a kill.",
-         "abimg":"/agentsability/JETT/blade_storm.webp"
+         "abimg":"src/assets/agentsability/JETT/blade_storm.webp"
       }
     ]
   },
   {
     "name": "Phoenix",
     "role": "Duelist",
-    "img": "/phoenix-removebg-preview.png"
+    "img": "src/assets/phoenix-removebg-preview.png"
   },
   {
     "name": "Raze",
     "role": "Duelist",
-    "img": "/raze-nobg.png"
+    "img": "src/assets/raze-nobg.png"
   },
   {
     "name": "Yoru",
@@ -52,21 +52,21 @@
   {
     "name": "Brimstone",
     "role": "Controller",
-    "img": "/brimstone-nobg.png"
+    "img": "src/assets/brimstone-nobg.png"
   },
   {
     "name": "Cypher",
     "role": "Sentinal",
-    "img": "/cypher-nobg.png"
+    "img": "src/assets/cypher-nobg.png"
   },
   {
     "name": "Breach",
     "role": "Initiator",
-    "img": "/breach-nobg.png"
+    "img": "src/assets/breach-nobg.png"
   },
   {
     "name": "Omen",
     "role": "Controller",
-    "img": "/omen-nobg.png"
+    "img": "src/assets/omen-nobg.png"
   }
 ]
