@@ -1,0 +1,10 @@
+ [{
+    "name": "Brimstone",
+    "role": "Controller",
+    "img": "src/assets/brimstone-nobg.png"
+  },
+   {
+    "name": "Omen",
+    "role": "Controller",
+    "img": "src/assets/omen-nobg.png"
+  }]
