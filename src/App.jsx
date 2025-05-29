@@ -34,7 +34,7 @@ function App() {
         path="/"
         element={
        
-      <div className="Cardsection container  mx-auto h-auto flex flex-wrap  gap-4 p-4 ">
+      <div className="Cardsection  container  mx-auto h-auto flex flex-wrap items-center justify-center gap-4 p-4 ">
         {filteredAgents.map((agent, index) => (
           <Card
             key={index}
