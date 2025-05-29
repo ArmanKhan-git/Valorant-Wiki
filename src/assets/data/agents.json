@@ -47,7 +47,7 @@
   {
     "name": "Yoru",
     "role": "Duelist",
-    "img": "src/assets/yoru-nobg.png"
+    "img": "/yoru-nobg.png"
   },
   {
     "name": "Brimstone",
