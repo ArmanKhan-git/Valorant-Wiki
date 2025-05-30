@@ -13,15 +13,15 @@ const agent = agentData.find(
     }
   return (<>
         <button onClick={()=>navigate(-1)} className=' m-4 border py-1 px-2 rounded-2xl bg-white text-black font-extrabold  hover:cursor-pointer'>&lt;-back </button>
-      <div className='container relative mx-auto'>
-      <h1 className='text-7xl font-bold mb-4 z-10  '>{agent.name}</h1>
+      <div className='container relative mx-auto p-2 '>
+      <h1 className='text-7xl font-bold mb-4 z-10 relative  '>{agent.name}</h1>
         <img className='absolute z-0 right-0 mt-20 scale-[180%] opacity-50 ' src={agent.img} alt="" />
-      <span className='text-2xl  z-10 border rounded-2xl px-2 font-bold opacity-60'>{agent.role}</span>
-      <div className="agentdesc z-10 w-[40vw] text-2xl my-4">
+      <span className='text-2xl relative z-10 border rounded-2xl px-2 font-bold opacity-60'>{agent.role}</span>
+      <div className="agentdesc relative z-10 w-full  text-2xl my-4">
         <p>{agent.desciption}</p>
       </div>
       <div className="agentabilities z-10 w-full">
-        <h1 className='font-bold text-5xl z-10'>Abilities</h1>
+        <h1 className='font-bold text-5xl relative z-10'>Abilities</h1>
         {agent.abilities && agent.abilities.length>0?
         (agent.abilities.map((ability,index)=>{
             const abilityname=Object.keys(ability).find(key => key !== "description");

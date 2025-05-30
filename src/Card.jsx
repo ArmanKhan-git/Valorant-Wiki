@@ -3,7 +3,7 @@ import JettImg from './assets/JETT.jpg'
 function Card(props) {
   return (
     <>
-       <div className="group  agentcard border  h-[35vh] lg:w-[14vw] w-[32vw]  m-2 rounded-3xl relative overflow-hidden object-cover  hover:cursor-pointer">
+       <div onClick={props.onClick} className="group  agentcard border  lg:h-[35vh] lg:w-[14vw] w-[32vw]  m-2 rounded-3xl relative overflow-hidden object-cover  hover:cursor-pointer">
         <div className='w-full h-[21vh]'>
        <img className="h-[300%] w-full  rounded-3xl object-cover z-0 object-top  " src={props.img}  alt="" />
        </div>

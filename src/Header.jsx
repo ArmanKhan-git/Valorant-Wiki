@@ -12,7 +12,7 @@ function Header({ setSelectedRole, selectedRole,searchText, setSearchText  }) {
     <>
     <div className=" container relative mx-auto flex flex-col text-center gap-5 min-h-[20vh]  py-3">
       <h1 className=" font-bold text-4xl">Explore Valorant Agents</h1>
-      <div><input className="border  rounded-full py-1.5 px-4 w-[15vw] text-white" type="text" placeholder="Search agents " value={searchText} onChange={(e)=>setSearchText(e.target.value)} />
+      <div><input className="border  rounded-full py-1.5 px-4 min-w-[15vw] text-white" type="text" placeholder="Search agents " value={searchText} onChange={(e)=>setSearchText(e.target.value)} />
      
       </div>
     <div className="   flex justify-center gap-2 flex-wrap right-0 bottom-0  text-white mb-2">
